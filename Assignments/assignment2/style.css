@@ -26,3 +26,9 @@ a {
   padding: 1em;
   margin-bottom: 1em;
 }
+
+img {
+  float: right;
+  margin: 0 0 1em 1em;
+  max-width: 40%;
+}
