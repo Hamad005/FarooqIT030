@@ -27,8 +27,13 @@ a {
   margin-bottom: 1em;
 }
 
-img {
-  float: right;
-  width: 12em;
-  margin: -1em 0 1em 1em;
+#header {
+  position: relative;
+}
+
+#header img {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  width: 10em;
 }
