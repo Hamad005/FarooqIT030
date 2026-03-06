@@ -8,6 +8,7 @@ body {
   width: 90%;
   max-width: 60rem;
   margin: 0 auto;
+  padding-top: 6rem; 
 }
 
 h1 {
@@ -31,10 +32,16 @@ a {
   border: 0.1rem solid black;
   padding: 1rem;
   margin-bottom: 1rem;
+  position: relative; 
 }
 
 #header {
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  z-index: 100;
 }
 
 #header img {
@@ -43,4 +50,14 @@ a {
   right: 1rem;
   width: 10vw;
   max-width: 12rem;
+}
+
+.label {
+  position: absolute;
+  top: -0.5rem;
+  right: 1rem;
+  background: darkgreen;
+  color: white;
+  padding: 0.3rem 0.6rem;
+  z-index: 10;
 }
