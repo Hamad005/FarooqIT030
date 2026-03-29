@@ -28,12 +28,18 @@ main {
   padding: 1rem;
 }
 
-/* Section boxes */
+/* Section boxes (black theme) */
 .section-box {
+  background-color: black;
+  color: white;
   border: 0.1rem solid black;
   padding: 1rem;
   margin-bottom: 1rem;
-  background-color: white;
+}
+
+/* Links inside black boxes */
+.section-box a {
+  color: lightblue;
 }
 
 /* Images */
