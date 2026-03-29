@@ -2,15 +2,28 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   line-height: 1.6;
+  background-color: #f4f4f4;
 }
 
-/* Navigation Flexbox */
+/* Header */
+header {
+  background-color: darkgreen;
+  color: white;
+  padding: 1rem;
+}
+
+/* Navigation (Flexbox) */
 nav {
   display: flex;
   gap: 1rem;
 }
 
-/* Main spacing */
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Main content */
 main {
   padding: 1rem;
 }
@@ -20,9 +33,17 @@ main {
   border: 0.1rem solid black;
   padding: 1rem;
   margin-bottom: 1rem;
+  background-color: white;
 }
 
-/* Flexbox for work page */
+/* Images */
+img {
+  width: 80%;
+  max-width: 20rem;
+  height: auto;
+}
+
+/* Flexbox for Work page */
 .flex-row {
   display: flex;
   gap: 1rem;
@@ -30,9 +51,4 @@ main {
 
 .flex-item {
   flex: 1;
-}
-
-img {
-  width: 100%;
-  height: auto;
 }
