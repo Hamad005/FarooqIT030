@@ -1,1 +1,38 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
 
+/* Navigation Flexbox */
+nav {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Main spacing */
+main {
+  padding: 1rem;
+}
+
+/* Section boxes */
+.section-box {
+  border: 0.1rem solid black;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Flexbox for work page */
+.flex-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.flex-item {
+  flex: 1;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
