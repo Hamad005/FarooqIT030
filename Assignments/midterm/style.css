@@ -30,9 +30,9 @@ main {
 
 /* Section boxes (black theme) */
 .section-box {
-  background-color: black;
-  color: white;
-  border: 0.1rem solid black;
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
   padding: 1rem;
   margin-bottom: 1rem;
 }
