@@ -30,6 +30,7 @@ nav a {
 /* Main content */
 main {
   padding: 1rem;
+  flex: 1;
 }
 
 /* Section boxes (black theme) */
@@ -61,4 +62,8 @@ img {
 
 .flex-item {
   flex: 1;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
 }
