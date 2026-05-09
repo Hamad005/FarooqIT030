@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Interests</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Hamad Farooq</h1>
+
+<nav>
+<a href="index.html" onclick="gtag('event','nav_click',{'link':'home'})">Home</a>
+<a href="about.html" onclick="gtag('event','nav_click',{'link':'about'})">About</a>
+<a href="work.html" onclick="gtag('event','nav_click',{'link':'work'})">Work</a>
+<a href="interests.html" onclick="gtag('event','nav_click',{'link':'interests'})">Interests</a>
+<a href="contact.html" onclick="gtag('event','nav_click',{'link':'contact'})">Contact</a>
+</nav>
+</header>
+
+<main>
+
+<section class="section-box">
+<h2>My Interests</h2>
+
+<p>
+This page highlights some of my interests and areas I am learning about. You can filter the items below based on category.
+</p>
+
+<select onchange="filterItems(this.value)">
+  <option value="">All</option>
+  <option value="Tech">Tech</option>
+  <option value="Soccer">Soccer</option>
+  <option value="School">School</option>
+</select>
+
+<p id="result-count"></p>
+
+<div id="results-container"></div>
+
+</section>
+
+</main>
+
+<footer>
+<p>© 2026 Hamad Farooq</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
