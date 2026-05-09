@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+header {
+  background-color: darkgreen;
+  color: white;
+  padding: 1rem;
+}
+
+/* Navigation (Flexbox) */
+nav {
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Main content */
+main {
+  padding: 1rem;
+  flex: 1;
+}
+
+/* Section boxes (black theme) */
+.section-box {
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Links inside black boxes */
+.section-box a {
+  color: blue;
+}
+
+/* Images */
+img {
+  width: 80%;
+  max-width: 20rem;
+  height: auto;
+}
+
+/* Flexbox for Work page */
+.flex-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.flex-item {
+  flex: 1;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+}
+
+#results-container {
+  margin-top: 1rem;
+}
+
+.item-card {
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+.item-card h3 {
+  margin-top: 0;
+}
+
+.item-tag {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  background-color: #ddd;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
